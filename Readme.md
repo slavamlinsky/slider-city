@@ -1,4 +1,4 @@
-#Slider
+# Slider
 
 Nice slider on HTML + CSS + JS with cities of the world
 
