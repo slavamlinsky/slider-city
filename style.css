@@ -11,14 +11,10 @@ body {
 }
 
 .carousel-item{
-    background-color: aquamarine;
-    
-     
+    background-color: #111;     
 }
 
-.carousel-box {
-
-    /* --opacity: calc(var(--zIndex) / var(--items) * 3 - 2); */
+.carousel-box {    
     --shift-x: calc(80% * var(--progress));
     --shift-y: calc(20% * var(--progress));
     --rotate: calc(10deg * var(--progress));    
@@ -79,8 +75,7 @@ body {
     z-index: 1;
 }
 
-.carousel-box img{
-    /* display: none; */
+.carousel-box img{    
     grid-column: 1/2;
     grid-row: 1/3;    
     width: 100%;
